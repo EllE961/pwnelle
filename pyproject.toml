@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name            = "pwnelle"
 version         = "1.0.0"
 description     = "Ultra-fast flag & string hunter for mixed/Unicode encodings"
-authors         = [{ name = "EllE", email = "elle@example.com" }]
+authors         = [{ name = "EllE961", email = "yahyaalsalmi961@gmail.com" }]
 license         = { text = "MIT" }
 readme          = "README.md"
 requires-python = ">=3.9"
@@ -29,10 +29,10 @@ classifiers     = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourname/pwnelle"
-Documentation = "https://github.com/yourname/pwnelle#readme"
-Issues = "https://github.com/yourname/pwnelle/issues"
-Source = "https://github.com/yourname/pwnelle"
+Homepage = "https://github.com/EllE961/pwnelle"
+Documentation = "https://github.com/EllE961/pwnelle#readme"
+Issues = "https://github.com/EllE961/pwnelle/issues"
+Source = "https://github.com/EllE961/pwnelle"
 
 [project.scripts]
 pwnelle = "pwnelle.main:main"
