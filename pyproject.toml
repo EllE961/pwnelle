@@ -40,6 +40,9 @@ pwnelle = "pwnelle.main:main"
 [tool.setuptools]
 package-dir = {"" = "pwnelle"}
 
+[tool.setuptools.packages.find]
+where = ["pwnelle"]
+
 [tool.black]
 line-length = 88
 target-version = ["py38"]
