@@ -1,6 +1,37 @@
+Metadata-Version: 2.4
+Name: pwnelle
+Version: 1.0.2
+Summary: Ultra-fast flag & string hunter for mixed/Unicode encodings
+Author-email: EllE961 <yahyaalsalmi961@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/EllE961/pwnelle
+Project-URL: Documentation, https://github.com/EllE961/pwnelle#readme
+Project-URL: Issues, https://github.com/EllE961/pwnelle/issues
+Project-URL: Source, https://github.com/EllE961/pwnelle
+Keywords: security,ctf,binary-analysis,forensics,string-finder
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Disassemblers
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typer>=0.12
+Requires-Dist: rich>=13.7
+Dynamic: license-file
+
 # pwnelle
 
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.2-blue)
 ![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
