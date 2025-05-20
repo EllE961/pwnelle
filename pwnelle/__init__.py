@@ -1,5 +1,5 @@
 """
-pwnelle - 70%-Done-For-You Binary-Exploitation Assistant
+pwnelle
 """
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
