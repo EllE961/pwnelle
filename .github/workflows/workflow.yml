@@ -2,14 +2,14 @@ name: Publish Python package to PyPI via OIDC
 
 on:
   release:
-    types: [created]  # Trigger when a new GitHub Release is created
+    types: [created] # Trigger when a new GitHub Release is created
 
 permissions:
-  contents: read        # to fetch code
-  id-token: write       # required for OIDC with PyPI
+  contents: read # to fetch code
+  id-token: write # required for OIDC with PyPI
 
 environment:
-  name: pypi            # must match the environment registered on PyPI
+  name: pypi # must match the environment registered on PyPI
 
 jobs:
   build-and-publish:
@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python 3.x
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install build backend
         run: python -m pip install --upgrade build
@@ -32,4 +32,4 @@ jobs:
       - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          verbose: true 
+          verbose: true
