@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name            = "pwnelle"
-version         = "1.0.1"
+version         = "1.0.0"
 description     = "Ultra-fast flag & string hunter for mixed/Unicode encodings"
 authors         = [{ name = "EllE961", email = "yahyaalsalmi961@gmail.com" }]
 license         = { text = "MIT" }
@@ -37,11 +37,9 @@ Source = "https://github.com/EllE961/pwnelle"
 [project.scripts]
 pwnelle = "pwnelle.main:main"
 
-[tool.setuptools]
-package-dir = {"" = "pwnelle"}
-
 [tool.setuptools.packages.find]
-where = ["pwnelle"]
+where = ["."]
+include = ["pwnelle*"]
 
 [tool.black]
 line-length = 88
