@@ -4,7 +4,7 @@ on:
   push: # build on every push to main
     branches: [main]
   workflow_dispatch: # …or manual trigger
-
+  
 jobs:
   build:
     runs-on: ubuntu-latest
