@@ -21,7 +21,7 @@ A modern binary analysis tool that helps identify vulnerabilities and generates 
 pip install pwnelle
 
 # Or install from source
-git clone https://github.com/yourusername/pwnelle.git
+git clone https://github.com/EllE961/pwnelle.git
 cd pwnelle
 pip install -e .
 ```
